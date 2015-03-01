@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["ctrl+alt+left"], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["ctrl+alt+right"],  "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    }
+]

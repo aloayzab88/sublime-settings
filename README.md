@@ -1,2 +1,2 @@
 # sublime-settings
-Sublime settings for themes, colors schemes and pluggins
+Sublime settings for themes, colors schemes, key maps and plugins.
