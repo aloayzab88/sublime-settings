@@ -1,2 +1,2 @@
 # sublime-settings
-Sublime settings for themes, colors schemes, key maps and plugins.
+Configuraciones de Sublime Text 3 para temas, colores, mapeado de teclas y plugins.
