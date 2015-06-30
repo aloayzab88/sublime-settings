@@ -1,0 +1,41 @@
+{
+	"color_scheme": "Packages/Theme - Asphalt/Asphalt.tmTheme",
+	"detect_indentation": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_build",
+		"dist",
+		"build",
+		"site",
+		".bin",
+		"componentes",
+		"node_modules"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"C:\\Users\\Alejandro\\Documents\\Medialab\\front-end\\www\\html\\componentes*",
+		"*.log"
+	],
+	"phoenix_color_red": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_eighties": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_large": "xsmall",
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_auto_width": true,
+	"tab_size": 4,
+	"theme": "Asphalt.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": false,
+	"word_wrap": true
+}

@@ -1,10 +1,17 @@
 [
     {
-        "keys": ["ctrl+alt+left"], "command": "goto_css_declaration",
+        "keys": ["ctrl+left"], "command": "goto_css_declaration",
         "args": {"goto": "next"}
     },
     {
-        "keys": ["ctrl+alt+right"],  "command": "goto_css_declaration",
+        "keys": ["ctrl+right"],  "command": "goto_css_declaration",
         "args": {"goto": "prev"}
+    },
+    {   "keys": ["ctrl+alt+c"], "command": "show_panel", 
+        "args": {"panel": "console", "toggle": true} 
+    },
+    {   "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } 
+    },
+    {   "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } 
     }
 ]

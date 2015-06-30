@@ -1,11 +1,16 @@
 {
     // Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
     "snippets": {
-        // "html": {
-        //  "abbreviations": {
-        //      "example": "<div class='example' title='Custom element example'>"
-        //  }
-        // }
+        "scss": {
+            "abbreviations": {
+                "mins": "@include min-screen(${1:media-querie}) {}",
+                "cont": "@include contenedor();",
+                "cent": "@include centrado-vertical();",
+                "lc": ":last-child {}",
+                "fc": ":first-child {}",
+                "ntc": ":nth-child($1) {}"
+            }
+        }
     },
 
     // Emmet preferences
