@@ -1,6 +1,12 @@
 {
     // Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
     "snippets": {
+        "jade": {
+            "abbreviations": {
+                "img": "<img src='images/$1' alt='$2' width='$3' height='$4'>",
+                "inputp": "<input type='${1:text}' name='$2' placeholder='$3'>"
+            }
+        },
         "scss": {
             "abbreviations": {
                 "mins": "@include min-screen(${1:media-querie}) {}",
@@ -8,7 +14,10 @@
                 "cent": "@include centrado-vertical();",
                 "lc": ":last-child {}",
                 "fc": ":first-child {}",
-                "ntc": ":nth-child($1) {}"
+                "ntc": ":nth-child($1) {}",
+                "transi": "transition: ${1:propiedad} ${2:tiempo}s ${3:ease-in};",
+                "transf": "transform: ${1:transformacion}(${2:valor});",
+                "acc": "transform: transformZ(0);"
             }
         }
     },
