@@ -1,0 +1,19 @@
+{
+    "patterns": {
+        "TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+        "NOTE": "NOTE[\\s]*?:[\\s]*(?P<note>.*)$",
+        "FIXME": "FIX ?ME[\\s]*?:[\\s]*(?P<fixme>.*)$",
+        "CHANGED": "CHANGED[\\s]*?:[\\s]*(?P<changed>.*)$"
+    },
+    "patterns_weight": {
+    },
+    "exclude_folders": [
+        "*.git*",
+        "*componentes*",
+        "*node_modules*"
+    ],
+    "exclude_files": [
+        "*.sublime-workspace",
+        "*.sublime-project"
+    ]
+}
