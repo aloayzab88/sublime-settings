@@ -1,35 +1,42 @@
 {
     // Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
     "snippets": {
+        "jade": {
+            "abbreviations": {
+                "img": "<img src='images/$1' alt='$2' width='$3' height='$4'>",
+                "inputp": "<input type='${1:text}' name='$2' placeholder='$3'>"
+            }
+        },
         "scss": {
             "abbreviations": {
+                "screen": "@mixin screen(${1:res-min}, ${2:res-max}, ${3:orientation}) {}",
                 "mins": "@include min-screen(${1:media-querie}) {}",
-                "cont": "@include contenedor();",
-                "cent": "@include centrado-vertical();",
+                "maxs": "@include max-screen(${1:media-querie}) {}",
+                "minsh": "@include min-screen-height(${1:media-querie}) {}",
+                "maxsh": "@include max-screen-height(${1:media-querie}) {}",
+                "cont": "@include contenedor;",
+                "cf": "@include clearfix;",
+                "cent": "@include centrado-vertical;",
+                "hv": ":hover {}",
+                "ac": ":active {}",
                 "lc": ":last-child {}",
                 "fc": ":first-child {}",
-                "ntc": ":nth-child($1) {}"
+                "ntc": ":nth-child($1) {}",
+                "bf": ":before {\n    content: '${1}';\n}",
+                "af": ":after {\n    content: '${1}';\n}",
+                "transi": "transition: ${1:propiedad} ${2:tiempo}s ${3:ease-in};",
+                "transf": "transform: ${1:transformacion}(${2:valor});",
+                "acc": "transform: transformZ(0);",
+                "fface": "@font-face {\n    font-family: '$1';\n    src: url('../fonts/$1/$1.eot');\n    src: url('../fonts/$1/$1.eot?#iefix') format('embedded-opentype'),\n         url('../fonts/$1/$1.woff') format('woff'),\n         url('../fonts/$1/$1.ttf') format('truetype'),\n         url('../fonts/$1/$1.svg#$1') format('svg');\n    font-weight: normal;\n    font-style: normal;\n}"
             }
         }
     },
-
-    // Emmet preferences
-    // List of all available preferences:
-    // http://docs.emmet.io/customization/preferences/
-    "preferences": {
-        // "css.valueSeparator": ": ",
-        // "css.propertyEnd": ";"
-    },
-
-    // Output profiles for syntaxes
-    // http://docs.emmet.io/customization/syntax-profiles/
     "syntaxProfiles": {
         // Enable XHTML dialect for HTML syntax
         // "html": "xhtml"
         // 
         // Write chained CSS abbreviations on single line:
         // "css": "css_line"
-
         "jade": {
             "attr_quotes": "single"
         }
