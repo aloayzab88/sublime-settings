@@ -26,7 +26,7 @@
                 "af": ":after {\n    content: '${1}';\n}",
                 "transi": "transition: ${1:propiedad} ${2:tiempo}s ${3:ease-in};",
                 "transf": "transform: ${1:transformacion}(${2:valor});",
-                "acc": "transform: transformZ(0);",
+                "acc": "transform: translateZ(0);",
                 "fface": "@font-face {\n    font-family: '$1';\n    src: url('../fonts/$1/$1.eot');\n    src: url('../fonts/$1/$1.eot?#iefix') format('embedded-opentype'),\n         url('../fonts/$1/$1.woff') format('woff'),\n         url('../fonts/$1/$1.ttf') format('truetype'),\n         url('../fonts/$1/$1.svg#$1') format('svg');\n    font-weight: normal;\n    font-style: normal;\n}"
             }
         }
