@@ -7,9 +7,9 @@
         "keys": ["ctrl+right"],  "command": "goto_css_declaration",
         "args": {"goto": "prev"}
     },
-    {   "keys": ["ctrl+alt+c"], "command": "show_panel", 
+    /*{   "keys": ["ctrl+alt+c"], "command": "show_panel", 
         "args": {"panel": "console", "toggle": true} 
-    },
+    },*/
     {   "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } 
     },
     {   "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } 
