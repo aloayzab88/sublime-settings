@@ -1,28 +1,29 @@
 {
-    "in_process_packages":
-    [
-    ],
-    "installed_packages":
-    [
-        "AutoFileName",
-        "Emmet",
-        "Git",
-        "GitGutter",
-        "Goto-CSS-Declaration",
-        "Jade",
-        "jQuery",
-        "List stylesheet variables",
-        "Material Theme",
-        "Modific",
-        "Package Control",
-        "SCSS",
-        "Seti_UI",
-        "Seti_UX",
-        "SideBarEnhancements",
-        "Theme - Asphalt",
-        "Theme - Brogrammer",
-        "Theme - itg.flat",
-        "Theme - Phoenix",
-        "TodoReview"
-    ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Goto-CSS-Declaration",
+		"Jade",
+		"JavaScript Completions",
+		"JavaScript Snippets",
+		"jQuery",
+		"List stylesheet variables",
+		"Material Theme",
+		"Modific",
+		"Package Control",
+		"SASS Snippets",
+		"SCSS",
+		"Seti_UI",
+		"Seti_UX",
+		"SideBarEnhancements",
+		"Terminal",
+		"TodoReview"
+	]
 }
