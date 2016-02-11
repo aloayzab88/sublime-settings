@@ -9,7 +9,7 @@
         },
         "scss": {
             "abbreviations": {
-                "screen": "@mixin screen(${1:res-min}, ${2:res-max}, ${3:orientation}) {}",
+                "screen": "@include screen(${1:res-min}, ${2:res-max}, ${3:orientation}) {}",
                 "mins": "@include min-screen(${1:media-querie}) {}",
                 "maxs": "@include max-screen(${1:media-querie}) {}",
                 "minsh": "@include min-screen-height(${1:media-querie}) {}",
