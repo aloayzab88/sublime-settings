@@ -11,8 +11,9 @@
 		"CVS",
 		"_build",
 		"build",
-		"site",
 		".bin",
+		"site",
+		"bower_components",
 		"node_modules"
 	],
 	"font_face": "Ubuntu Mono",
@@ -22,10 +23,8 @@
 		"subpixel_antialias"
 	],
 	"font_size": 11,
-	"hot_exit": false,
 	"ignored_packages":
 	[
-		"GitGutter",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -35,11 +34,13 @@
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
+	"material_theme_accent_blue": true,
+	"material_theme_appbar_blue": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
-	"remember_open_files": false,
 	"tab_size": 4,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"update_check": false,
 	"word_wrap": true
 }
