@@ -7,6 +7,23 @@
                 "inputp": "<input type='${1:text}' name='$2' placeholder='$3'>"
             }
         },
+        "stylus": {
+            "abbreviations": {
+                "screen": "+screen(${1:minWidth}, ${2:maxWidth})",
+                "mins": "+min-screen(${1:minWidth})",
+                "maxs": "+max-screen(${1:maxWidth})",
+                "hv": ":hover ",
+                "ac": ":active ",
+                "lc": ":last-child ",
+                "lt": ":last-of-type ",
+                "fc": ":first-child ",
+                "ft": ":first-of-type ",
+                "ntc": ":nth-child($1) ",
+                "bf": "::before \n    content: '$1'\n",
+                "af": "::after \n    content: '$1'\n",
+                "a": "&__"
+            }
+        },
         "scss": {
             "abbreviations": {
                 "screen": "@include screen(${1:res-min}, ${2:res-max}, ${3:orientation}) {}",
